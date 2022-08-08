@@ -1,3 +1,5 @@
+// Type animation
+
 var options = {
     strings: ["Student.", "Developer.", "Gamer."],
     typeSpeed: 100,
@@ -6,3 +8,5 @@ var options = {
 }
 
 var typed = new Typed(".auto-type", options);
+
+// hamburger menu animation
