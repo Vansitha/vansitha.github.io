@@ -52,14 +52,61 @@ p {
 
 @media screen and (min-width: 1024px) {
     body {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   
     h1 {
-      font-size: 7rem;
+      font-size: 5rem;
     }
   
     h3 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
   }
+
+/* Container */
+.header-container {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .header-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .linkedin-logo,
+    .github-logo {
+        margin-top: 1.2rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .linkedin-logo {
+        margin-right: 3.5rem;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    li {
+        margin-left: 6rem;
+    }
+
+}
