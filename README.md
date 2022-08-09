@@ -1,4 +1,6 @@
 # My Portfolio Site
 
-- Personal site to showcase my projects.
-- v1.0
+- Personal Site to show case my projects.
+- Building it for fun.
+
+- v1.0.1

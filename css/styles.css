@@ -19,6 +19,7 @@
 html {
     font-size: 62.5%; /* 1 rem = 10px */
     background-color: var(--primary-color);
+    scroll-behavior: smooth;
 }
 
 img {
@@ -203,6 +204,7 @@ main {
  
 .landing-page {
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .landing-grid {
@@ -229,7 +231,7 @@ main {
 
 .landing-portrait {
     margin-top: 20px;
-    width: 40%;
+    width: 30vw;
 }
 
 .next-page-icon {
@@ -239,8 +241,10 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
+
     .landing-grid {
-        display: inline-flex;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
 
     }
 
@@ -258,7 +262,8 @@ main {
     }
 
     .landing-text, h1 {
-        text-align: start;
+        text-align:left;
+        margin-right: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -269,8 +274,9 @@ main {
 
     .landing-portrait {
         margin-top: 20px;
-        width: 25%;
-        margin-left: 80px;
+        width: 312px;
+        height: 391px;
+        position: relative;
     }
 
     .next-page-icon {
@@ -281,3 +287,5 @@ main {
     }
 
 }
+
+/* About Me */
