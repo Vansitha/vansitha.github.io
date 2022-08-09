@@ -3,4 +3,4 @@
 - Personal Site to show case my projects.
 - Building it for fun.
 
-- v1.0.2
+- v1.1.0

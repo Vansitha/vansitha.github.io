@@ -307,7 +307,7 @@ main {
 
 /* About Me */
 .about-section {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     height: 100vh;
 }
@@ -336,6 +336,9 @@ main {
 }
 
 @media screen and (min-width: 820px) {
+    .about-section {
+        padding-top: 100px;
+    }
     .about-section-grid {
         display: grid;
         grid-template-columns: 0.5fr 0.1fr 0.5fr;
@@ -363,6 +366,17 @@ main {
         height: 420px;
         transform: rotate(180deg);
     }
+}
 
+/* Project section */
+.project-section {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    height: 100vh;
 
+}
+
+.project-section h2 {
+    text-align: center;
+    padding-bottom: 40px;
 }
