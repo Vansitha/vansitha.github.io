@@ -334,3 +334,35 @@ main {
 .about-mobile-view p {
     padding-top: 10px;
 }
+
+@media screen and (min-width: 820px) {
+    .about-section-grid {
+        display: grid;
+        grid-template-columns: 0.5fr 0.1fr 0.5fr;
+    }
+
+    .about-section p {
+        font-size: 1.5rem;
+    }
+
+    .about-mobile-view p {
+        padding-top: 0;
+
+    }
+    
+    .person-3d {
+        width: 250px;
+    }
+
+    .vertical-deco-line {
+        margin: 0 auto;
+        border: 3px solid #FFFB6D;
+        background-color: var(--accent-color);
+        border-radius: 40px;
+        width: 10px;
+        height: 420px;
+        transform: rotate(180deg);
+    }
+
+
+}
