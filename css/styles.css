@@ -176,10 +176,19 @@ header {
     border: none;
 }
 
+
 @media screen and (min-width: 1024px) {
     .main-button {
+        cursor: pointer;
         width: 128px;
         height: 43px;
+        transition: all 0.2s ease-in 0s;
+    }
+
+    .main-button:hover {
+        transition: all 0.2s ease-out 0s;
+        background-color: #F6F000
+
     }
 }
 
@@ -193,6 +202,7 @@ header {
         min-height: 100vh;
         padding: 200px
     } to keep everything centered in the screen */
+
 main {
     margin: 0px auto;
     width: 100%;
@@ -201,10 +211,12 @@ main {
     padding-left: 25px;
     padding-right: 25px;
 }
+
  
 .landing-page {
     margin-top: 25px;
     margin-bottom: 30px;
+    height: 100vh;
 }
 
 .landing-grid {
@@ -280,6 +292,7 @@ main {
     }
 
     .next-page-icon {
+        cursor: pointer;
         visibility: visible;
         align-items: center;
         margin: auto;
