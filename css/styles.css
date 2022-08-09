@@ -27,7 +27,7 @@ img {
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: var(--secondary-color);
 }
 
@@ -39,11 +39,11 @@ h3 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 p {
@@ -52,61 +52,14 @@ p {
 
 @media screen and (min-width: 1024px) {
     body {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   
     h1 {
-      font-size: 5rem;
+      font-size: 8rem;
     }
   
     h3 {
-      font-size: 3rem;
+      font-size: 5rem;
     }
   }
-
-/* Container */
-.header-container {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-@media screen and (min-width: 1024px) {
-
-    .header-container {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .logo {
-        height: 5rem;
-        width: 5rem;
-    }
-
-    .linkedin-logo,
-    .github-logo {
-        margin-top: 1.2rem;
-        height: 3rem;
-        width: 3rem;
-    }
-
-    .linkedin-logo {
-        margin-right: 3.5rem;
-    }
-    
-    .nav-links {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    li {
-        margin-left: 6rem;
-    }
-
-}
