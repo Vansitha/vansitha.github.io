@@ -120,7 +120,7 @@ header {
 
 /* typography and positioning nav bar content */
 .nav-links {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     list-style: none;
     padding-left: 0px;
 }
@@ -156,6 +156,128 @@ header {
     .nav-links li a:hover {
         color: var(--accent-color);
     
+    }
+
+}
+
+/* button */
+
+.main-button {
+    width: 128px;
+    height: 43px;
+    background: #FFFB6D;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-button {
+        width: 128px;
+        height: 43px;
+    }
+}
+
+/* landing page */
+
+/* NOTE: 
+    main {
+        margin: 0px auto;
+        width: 100%;
+        max-width; 1600px;
+        min-height: 100vh;
+        padding: 200px
+    } to keep everything centered in the screen */
+main {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+ 
+.landing-page {
+    margin-top: 25px;
+}
+
+.landing-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-text, h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.my-resume-btn {
+    margin-top: 30px;
+}
+
+.landing-portrait {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.next-page-icon {
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+    .landing-grid {
+        display: inline-flex;
+
+    }
+
+    main {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .landing-text {
+        align-items: flex-start;
+    }
+
+    .landing-grid {
+        flex-direction: row;
+    }
+
+    .landing-text, h1 {
+        text-align: start;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .landing-text, h3 {
+        margin-top: 20px;
+    }
+
+    .landing-portrait {
+        margin-top: 20px;
+        width: 25%;
+        margin-left: 80px;
+    }
+
+    .next-page-icon {
+        visibility: visible;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
     }
 
 }
