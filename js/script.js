@@ -9,4 +9,7 @@ var options = {
 
 var typed = new Typed(".auto-type", options);
 
-// hamburger menu animation
+// add alret when resume button is clicked
+
+var resumeButton = document.querySelector(".main-button");
+resumeButton.addEventListener("click", function() { alert("Coming soon!") });
