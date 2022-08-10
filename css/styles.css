@@ -407,9 +407,19 @@ main {
     text-align: center;
 }
 
-.file-icon, .github-project-icon {
-    width: 15px;
+.project-status-header {
+    position: relative;
+    padding: 20px 20px;
 
+}
+
+.file-icon, .github-project-icon {
+    width: 20px;
+}
+
+.github-project-icon {
+    position: absolute;
+    right: 20px;
 }
 
 .project-card {
@@ -432,12 +442,7 @@ main {
     color: var(--secondary-color);
 }
 
-.project-status-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 20px;
 
-}
 
 .project-name {
     background-color: #20537B;
@@ -484,6 +489,7 @@ main {
 }
 
 @media  screen and (min-width: 820px){
+    
     .project-card-grid {
         grid-template-columns: 1fr 1fr;
         padding-left: 50px;
