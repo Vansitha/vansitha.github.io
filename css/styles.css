@@ -35,21 +35,31 @@ body {
     font-size: 1.4rem;
     color: var(--secondary-color);
     background: linear-gradient(100deg, hsla(215, 96%, 11%, 1) 0%, hsla(183, 100%, 16%, 1) 100%);
-    background-size: 400% 400%;
-    animation: change 50s ease-in-out infinite;
 }
 
-@keyframes change {
-    0%{
-        background-position: 0 50%;
+@media  screen and (min-width: 1024px){
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        color: var(--secondary-color);
+        background: linear-gradient(100deg, hsla(215, 96%, 11%, 1) 0%, hsla(183, 100%, 16%, 1) 100%);
+        background-size: 400% 400%;
+        animation: change 50s ease-in-out infinite;
     }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-   
+    
+    @keyframes change {
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+       
+    }   
 }
 
 h1,
@@ -409,15 +419,6 @@ main {
     margin-top: 20px;
     width: 300px;
     height: 300px;
-    transition: all 0.3s ease-out;
-
-}
-
-.project-card:hover{
-    cursor: pointer;
-    transform: translateY(-5px) scale(1.005) translateZ(0);
-    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
-      0 24px 46px var(--box-shadow-color);
 }
 
 .card-link {
@@ -441,15 +442,7 @@ main {
     background-color: #20537B;
     height: 40px;
     border-radius: 5px;
-    transition: all 0.3s ease-out;
-}
-
-.project-name:hover{
-    background-color: var(--accent-color);
-}
-
-.project-name:hover{
-    color: var(--primary-color);
+    
 }
 
 .project-name p {
@@ -514,6 +507,30 @@ main {
     .project-desc, p {
         font-size: 1.5rem;
         margin-bottom: 0px;
+    }
+
+    .project-card{
+        transition: all 0.3s ease-out;
+        
+    }
+
+    .project-card:hover{
+        cursor: pointer;
+        transform: translateY(-5px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+        0 24px 46px var(--box-shadow-color);
+    }
+
+    .project-name {
+        transition: all 0.3s ease-out;
+    }
+
+    .project-name:hover{
+        background-color: var(--accent-color);
+    }
+    
+    .project-name:hover{
+        color: var(--primary-color);
     }
 }
 
