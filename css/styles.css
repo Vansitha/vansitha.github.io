@@ -1,3 +1,7 @@
+body {
+	scroll-behaviour: smooth;
+}
+
 :root {
     --primary-color: #011838;
     --secondary-color: #B6FCF8;
@@ -530,6 +534,7 @@ main {
 .footer-content {
     padding-top: 50px;
     text-align: center;
+    padding-bottom: 40px;
     background-color: var(--primary-color);
     font-size: 1.2rem;
     line-height: 2rem;
