@@ -469,7 +469,7 @@ main {
 
 .tech-used {
     position: absolute;
-    bottom: 0px;
+    bottom: 3px;
 }
 
 .tech-used p {
@@ -560,5 +560,5 @@ main {
     background-color: var(--primary-color);
     font-size: 1.2rem;
     line-height: 2rem;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
