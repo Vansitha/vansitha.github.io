@@ -398,7 +398,7 @@ main {
 }
 
 .file-icon, .github-project-icon {
-    width: 30px;
+    width: 20px;
 
 }
 
@@ -474,7 +474,7 @@ main {
 }
 
 .tech-used {
-    position: fixed;
+    position: absolute;
     bottom: 10px;
 }
 
