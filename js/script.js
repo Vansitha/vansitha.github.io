@@ -12,4 +12,4 @@ var typed = new Typed(".auto-type", options);
 // add alret when resume button is clicked
 
 var resumeButton = document.querySelector(".main-button");
-resumeButton.addEventListener("click", function() { alert("Coming soon!") });
+resumeButton.addEventListener("click", function() { alert("Will be available soon!") });
