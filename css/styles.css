@@ -349,6 +349,23 @@ main {
         margin-top: 30px;
     }
 
+    .next-page-icon{
+        visibility: visible;
+    }
+
+    .next-page-icon {
+        animation: next-section;
+        animation: next-section 3s linear infinite;
+
+    }
+
+    @keyframes next-section {
+        0% { translate: 0px 5px;}
+        50% { translate: 0px -5px;}
+        100% {translate: 0px 5px;}
+
+    }
+
 }
 
 /* About Me */
@@ -410,7 +427,10 @@ main {
         width: 10px;
         height: 420px;
         transform: rotate(180deg);
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        animation: line-animate 1s linear;
     }
+
 }
 
 /* Project section */

@@ -6,7 +6,7 @@ Will be upgrading to a framework later down the road. For now its just good old 
 Feedback and suggestions on improvements much appreciated!
 
 
-Credits to:<br>
+Credits:<br>
 <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by NajmunNahar - Flaticon</a><br>
 <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a><br>
 <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a><br>
