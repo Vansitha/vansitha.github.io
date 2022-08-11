@@ -5,4 +5,4 @@ Will be upgrading to a framework later down the road. For now its just good old 
 
 Feedback and suggestions on improvements much appreciated! 
 
-v1.0
+v1.0.2
