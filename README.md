@@ -7,11 +7,12 @@ Feedback and suggestions on improvements much appreciated!
 
 
 Credits to:
-<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by NajmunNahar - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Kiranshastry - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/loader" title="loader icons">Loader icons created by Freepik - Flaticon</a>
-<a href="https://iconscout.com/contributors/emefelart" title="3D Person Images">3D images created by EmefelArt - IconScout</a>
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by NajmunNahar - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Kiranshastry - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/loader" title="loader icons">Loader icons created by Freepik - Flaticon</a><br>
+<a href="https://iconscout.com/contributors/emefelart" title="3D Person Images">3D images created by EmefelArt - IconScout</a><br>
+
 v1.0.3
