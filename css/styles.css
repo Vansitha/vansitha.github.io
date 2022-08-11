@@ -620,8 +620,14 @@ input {
     padding-top: 15px;
     font-weight: bold;
     text-align: start;
-    color: #FF6D6D;
+    color: #9BFF99;
 }
+
+.send-button {
+    color: rgb(88, 88, 88);
+    background-color: gray;
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -659,6 +665,11 @@ input {
 
     #message-box {
         font-size: 1.5rem;
+    }
+
+    .send-button:hover{
+        color: rgb(88, 88, 88);
+        background-color: gray;
     }
 }
 
