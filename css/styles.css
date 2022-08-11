@@ -135,7 +135,7 @@ header {
     animation-name: rotate-logo;
     animation-duration: 700ms;
     animation-timing-function: cubic-bezier(00.5fr, 10 ,10, 0.5);
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes rotate-logo {
