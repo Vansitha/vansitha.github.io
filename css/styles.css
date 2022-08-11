@@ -549,12 +549,99 @@ main {
 
 .contact {
     padding-top: 100px;
+    position: relative;
 }
 
-.temp {
-    padding-top: 150px;
+.contact-call-to-action-text {
+    text-align: start;
+    padding-bottom: 20px;
 }
 
+.contact-person-img {
+    width: 90px;
+    position: absolute;
+    right: 0px;
+    bottom: -143px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.person-details {
+    align-items: flex-start;
+}
+
+.name-section, .email-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+}
+
+input {
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+
+#message-box {
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: start;
+    min-height: 120px;
+    resize: none;
+}
+
+.form-status {
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: start;
+    color: #FF6D6D;
+}
+
+@media screen and (min-width: 1024px) {
+
+    form {
+        padding-top: 50px;
+    }
+
+
+    .contact-person-img {
+        width: 200px;
+        position: absolute;
+        right: 0px;
+        bottom: -143px;
+    }
+
+    .person-details {
+        display: grid;
+        grid-template-columns: 1fr 2.4fr;
+    }
+
+    #message-box {
+        width: 800px;
+        resize: vertical;
+    }
+
+    label {
+
+        font-size: 1.5rem;
+    }
+
+    input {
+        font-size: 1.5rem;
+        width: 350px;
+    }
+
+    #message-box {
+        font-size: 1.5rem;
+    }
+}
 
 /* footer */
 
