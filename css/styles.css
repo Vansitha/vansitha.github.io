@@ -1,5 +1,5 @@
 body {
-	scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -129,6 +129,20 @@ header {
 
 .linkedin-logo {
     margin-right: 10px;
+}
+
+.my-logo{
+    animation-name: rotate-logo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate-logo {
+    0% { transform: rotate(90deg);}
+    25% {transform: rotate(180deg);}
+    50% {transform: rotate(270deg);}
+    75% {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
 }
 
 @media screen and (min-width: 1024px) {
