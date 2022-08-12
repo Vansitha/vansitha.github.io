@@ -15,4 +15,4 @@ Credits:<br>
 <a href="https://www.flaticon.com/free-icons/loader" title="loader icons">Loader icons created by Freepik - Flaticon</a><br>
 <a href="https://iconscout.com/contributors/emefelart" title="3D Person Images">3D images created by EmefelArt - IconScout</a><br>
 
-v1.0.4
+v1.0.6
