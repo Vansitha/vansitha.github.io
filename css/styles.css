@@ -535,7 +535,7 @@ main {
     
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1340px) {
 
     .project-section{
         padding-top: 50px;
@@ -648,7 +648,7 @@ input {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1340px) {
 
     form {
         padding-top: 50px;
