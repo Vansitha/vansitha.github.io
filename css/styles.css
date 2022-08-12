@@ -6,6 +6,7 @@ body {
     --primary-color: #011838;
     --secondary-color: #B6FCF8;
     --accent-color: #FFFB6D;
+    --default: #00112b;
 }
 
 *,
@@ -22,7 +23,7 @@ body {
 
 html {
     font-size: 62.5%; /* 1 rem = 10px */
-    background-color: var(--primary-color);
+    background-color: var(--default);
     scroll-behavior: smooth;
 }
 
@@ -420,14 +421,12 @@ main {
 
     .vertical-deco-line {
         margin: 0 auto;
-        border: 3px solid #FFFB6D;
+        border: 1px solid #FFFB6D;
         background-color: var(--accent-color);
         border-radius: 40px;
-        width: 10px;
+        width: 5px;
         height: 420px;
         transform: rotate(180deg);
-        animation: name duration timing-function delay iteration-count direction fill-mode;
-        animation: line-animate 1s linear;
     }
 
 }
@@ -694,14 +693,17 @@ input {
 
 /* footer */
 
+footer {
+    height: fit-content;
+}
+
 .footer-content {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     padding-bottom: 40px;
     background-color: var(--primary-color);
     font-size: 1.2rem;
     line-height: 2rem;
-    padding-bottom: 25px;
-    height: 300px;
-    background-color: #000B1B;
+    background-color: var(--default);
 }
