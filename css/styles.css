@@ -443,7 +443,7 @@ main {
 
 .project-status-header {
     position: relative;
-    padding: 20px 20px;
+    padding: 15px 20px;
 
 }
 
@@ -486,9 +486,10 @@ main {
 }
 
 .project-name p {
-    padding-top: 10px;
     font-size: 1.8rem;
     text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-indent: 20px;
 }
 
@@ -591,7 +592,7 @@ main {
 
 .contact-call-to-action-text {
     text-align: start;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .contact-person-img {
@@ -667,6 +668,7 @@ input {
     }
 
     #message-box {
+        font-size: 1.5rem;
         width: 800px;
         resize: vertical;
     }
@@ -679,10 +681,6 @@ input {
     input {
         font-size: 1.5rem;
         width: 350px;
-    }
-
-    #message-box {
-        font-size: 1.5rem;
     }
 
     .send-button:hover{
