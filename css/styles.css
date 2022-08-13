@@ -347,20 +347,12 @@ main {
 
     .next-page-icon {
         cursor: pointer;
-        visibility: hidden;
+        visibility: visible;
         align-items: center;
         margin: auto;
         margin-top: 30px;
-    }
-
-    .next-page-icon{
-        visibility: visible;
-    }
-
-    .next-page-icon {
         animation: next-section;
         animation: next-section 3s linear infinite;
-
     }
 
     @keyframes next-section {
