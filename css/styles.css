@@ -517,7 +517,6 @@ main {
 }
 
 .tech-used p {
-    font-family: consolas;
     color: var(--accent-color);
     margin-bottom: 0px;
 }
