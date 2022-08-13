@@ -429,7 +429,7 @@ main {
         background-color: var(--accent-color);
         border-radius: 40px;
         width: 5px;
-        height: 620px;
+        height: 400px;
         transform: rotate(180deg);
     }
 
