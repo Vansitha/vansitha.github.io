@@ -366,8 +366,7 @@ main {
 
 /* About Me */
 .about-section {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .about-section h2 {
@@ -430,6 +429,7 @@ main {
 /* Project section */
 
 .project-section{
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -534,8 +534,8 @@ main {
 
 @media screen and (min-width: 1340px) {
 
-    .project-section{
-        padding-top: 50px;
+    .project-section {
+        padding-top: 30px;
     }
 
     .project-card-grid {
@@ -583,7 +583,7 @@ main {
 /* contact section */
 
 .contact {
-    padding-top: 100px;
+    padding-top: 30px;
     position: relative;
 }
 
@@ -596,12 +596,13 @@ main {
     width: 90px;
     position: absolute;
     right: 0px;
-    bottom: -143px;
+    bottom: -65px;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .person-details {
@@ -666,16 +667,11 @@ input {
 
 @media screen and (min-width: 1340px) {
 
-    form {
-        padding-top: 50px;
-    }
-
-
     .contact-person-img {
         width: 200px;
         position: absolute;
         right: 0px;
-        bottom: -143px;
+        bottom: -40px;
     }
 
     .person-details {
@@ -690,7 +686,6 @@ input {
     }
 
     label {
-
         font-size: 1.5rem;
     }
 
