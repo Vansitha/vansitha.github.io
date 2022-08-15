@@ -196,7 +196,12 @@
         <section id="contact" class="contact">
             <h2>Want to ask something or just say hello?<br><span class="wave">&#128075</span></h2>
             <p class="contact-call-to-action-text">Feel free to contact me if you have any questions or want to collaborate to kick start your next project idea.<br>I'll get back to you as soon as possible.</p>
-            <form action="https://formsubmit.co/c4ad87d3eea8d433eb3497b0ac85c160" method="POST">
+            <form class="contact-form" action="https://formsubmit.co/c4ad87d3eea8d433eb3497b0ac85c160" method="POST">
+                <!-- honey pot-->
+                <input type="text" name="_honey" style="display: none;">
+                <!-- disable captcha-->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://vansitha.github.io">
                 <div class="person-details">
                     <div class="name-section">
                         <label for="name">Name</label><br>
@@ -209,7 +214,7 @@
                 </div>
                 <label for="message">Message</label><br>
                 <textarea name="message" id="message-box" cols="30" rows="10" placeholder="Your message"></textarea><br><br>
-                <input class="main-button send-button" type="submit" value="Send">
+                <input class="main-button send-button" type="submit" value="Send" disabled>
             </form>
             <div class="contact-person-img">
                 <img class=contact-img-3d" src="/images/person-3d-contact.png" alt="Person">

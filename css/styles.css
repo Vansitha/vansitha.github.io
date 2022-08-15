@@ -710,3 +710,13 @@ footer {
     line-height: 2rem;
     background-color: var(--default);
 }
+
+.send-button {
+    background-color: gray;
+    opacity: 0.5;
+    color: #333333;
+}
+
+.send-button:hover {
+    background-color: gray;
+}
