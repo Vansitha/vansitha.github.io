@@ -640,11 +640,6 @@ input {
     color: #9BFF99;
 }
 
-.send-button {
-    color: rgb(88, 88, 88);
-    background-color: gray;
-}
-
 .wave {
     animation-name: wave-animation;
     animation-duration: 2.5s;       
@@ -698,10 +693,6 @@ input {
         width: 350px;
     }
 
-    .send-button:hover{
-        color: rgb(88, 88, 88);
-        background-color: gray;
-    }
 }
 
 /* footer */
