@@ -710,3 +710,16 @@ footer {
     line-height: 2rem;
     background-color: var(--default);
 }
+
+/* DISABLE CONTACT FORM */
+
+.send-button {
+    background-color: rgb(133, 133, 133);
+    color: rgb(58, 58, 58);
+    opacity: 0.5;
+}
+
+.send-button:hover {
+    background-color: rgb(133, 133, 133);
+    color: rgb(58, 58, 58);
+}
