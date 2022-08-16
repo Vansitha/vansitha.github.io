@@ -51,3 +51,8 @@ aboutSection.addEventListener("click", () => { smoothScroll("#project", 1000); }
 
 var aboutSection = document.querySelector("#contact");
 aboutSection.addEventListener("click", () => { smoothScroll(".contact", 1000); });
+
+// Contact form 
+$('form').on('submit', function(e) {
+    e.preventDefault();
+});
