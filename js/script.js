@@ -8,11 +8,11 @@ var options = {
 
 var typed = new Typed(".auto-type", options);
 
-// add alret when resume button is clicked
+/* add alret when resume button is clicked
 var resumeButton = document.querySelector(".main-button");
 resumeButton.addEventListener("click", () => { 
     alert("Opps! Vansitha hasn't attached his resume yet. Seems like he is working on it! :)"); 
-});
+}); */
 
 // scolling animation
 function smoothScroll(target, duration) {
