@@ -50,7 +50,8 @@ var minScreenWidth = 400;
 
     function mobileAnimation(t, b, c, d) {
         t /= d;
-        return -c * t*(t-2) + b;
+        t--;
+        return c*(t*t*t + 1) + b
     }
 
     requestAnimationFrame(animation);
