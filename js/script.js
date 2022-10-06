@@ -8,11 +8,13 @@ var options = {
 
 var typed = new Typed(".auto-type", options);
 
-/* add alret when resume button is clicked
+/* MIGHT REQUIRE THIS AGAIN  
+add alret when resume button is clicked
 var resumeButton = document.querySelector(".main-button");
 resumeButton.addEventListener("click", () => { 
     alert("Opps! Vansitha hasn't attached his resume yet. Seems like he is working on it! :)"); 
-}); */
+}); 
+*/
 
 // scolling animation
 function smoothScroll(target, duration) {
@@ -29,20 +31,12 @@ var minScreenWidth = 400;
         if (startTime == null) startTime = currentTime;
         var timeElaplsed = currentTime - startTime;
         var run = easeOut(timeElaplsed, startPosition, distance, duration);
-        // if (windowSize <= minScreenWidth) {
-        //     var run = mobileAnimation(timeElaplsed, startPosition, distance, duration);
-        // } else {
-        //     var run = easeOut(timeElaplsed, startPosition, distance, duration);
-        // }
-        window.scrollTo(0, run);
+       window.scrollTo(0, run);
         if (timeElaplsed < duration) requestAnimationFrame(animation);
     }
 
     function easeOut(t, b, c, d) {
-        // t /= d;
-        // t--;
-        // return -c * (t*t*t*t - 1) + b;
-        t /= d/2;
+       t /= d/2;
         if (t < 1) return c/2*t*t*t*t + b;
         t -= 2;
         return -c/2 * (t*t*t*t - 2) + b;
