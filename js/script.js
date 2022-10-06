@@ -28,11 +28,12 @@ var minScreenWidth = 400;
     function animation(currentTime) {
         if (startTime == null) startTime = currentTime;
         var timeElaplsed = currentTime - startTime;
-        if (windowSize <= minScreenWidth) {
-            var run = mobileAnimation(timeElaplsed, startPosition, distance, duration);
-        } else {
-            var run = easeOut(timeElaplsed, startPosition, distance, duration);
-        }
+        var run = easeOut(timeElaplsed, startPosition, distance, duration);
+        // if (windowSize <= minScreenWidth) {
+        //     var run = mobileAnimation(timeElaplsed, startPosition, distance, duration);
+        // } else {
+        //     var run = easeOut(timeElaplsed, startPosition, distance, duration);
+        // }
         window.scrollTo(0, run);
         if (timeElaplsed < duration) requestAnimationFrame(animation);
     }
