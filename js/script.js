@@ -31,9 +31,14 @@ function smoothScroll(target, duration) {
     }
 
     function easeOut(t, b, c, d) {
-        t /= d;
-        t--;
-        return -c * (t*t*t*t - 1) + b;
+        // t /= d;
+        // t--;
+        // return -c * (t*t*t*t - 1) + b;
+        t /= d/2;
+        if (t < 1) return c/2*t*t*t*t + b;
+        t -= 2;
+        return -c/2 * (t*t*t*t - 2) + b;
+
     };
     
 
