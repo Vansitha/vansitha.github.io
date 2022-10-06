@@ -640,6 +640,11 @@ input {
     color: #9BFF99;
 }
 
+/* TEMP MESSAGE POINTING TO EMAIL*/
+#temp-message {
+    font-size: 1.3rem;
+}
+
 .wave {
     animation-name: wave-animation;
     animation-duration: 2.5s;       
