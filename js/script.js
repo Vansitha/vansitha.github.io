@@ -49,9 +49,9 @@ var minScreenWidth = 400;
     };
 
     function mobileAnimation(t, b, c, d) {
-        return c*t/d + b;
+        t /= d;
+        return -c * t*(t-2) + b;
     }
-
 
     requestAnimationFrame(animation);
 }
