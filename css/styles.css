@@ -537,7 +537,7 @@ main {
 .load-more-button {
     padding: 10px;
     color: var(--secondary-color);
-    border: solid 1px var(--accent-color);
+    border: solid 0.5px var(--accent-color);
     background: none;
 }
 
