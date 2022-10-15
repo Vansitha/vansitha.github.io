@@ -217,7 +217,7 @@ header {
     width: 128px;
     height: 43px;
     background: #FFFB6D;
-    border-radius: 5px;
+    border-radius: 6px;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -458,6 +458,14 @@ main {
     width: 300px;
     height: 310px;
     position: relative;
+    display: none;
+}
+
+.project-card:nth-child(1),
+.project-card:nth-child(2),
+.project-card:nth-child(3),
+.project-card:nth-child(4) {
+    display: inline-block;
 }
 
 .card-link {
@@ -518,7 +526,20 @@ main {
     place-items: center;
 }
 
+.load-more-projects {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 90px;
+}
 
+.load-more-button {
+    padding: 10px;
+    color: var(--secondary-color);
+    border: solid 2px var(--accent-color);
+    background: none;
+}
 
 @media  screen and (min-width: 890px){
     
@@ -527,7 +548,8 @@ main {
         padding-left: 100px;
         padding-right: 100px;
     }
-    
+
+
 }
 
 @media screen and (min-width: 1340px) {
@@ -574,6 +596,19 @@ main {
     .project-name:hover{
         color: var(--primary-color);
         font-weight: bold;
+    }
+
+    .load-more-button:hover {
+        color: #000000;
+    }
+
+    /* Display All project cards */
+    .project-card {
+        display: inline;
+    }
+
+    .load-more-button {
+        visibility: hidden;
     }
 }
 

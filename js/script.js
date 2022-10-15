@@ -53,14 +53,35 @@ var minScreenWidth = 400;
 }
 
 
-    var aboutSection = document.querySelector("#about");
-    aboutSection.addEventListener("click", () => { smoothScroll("#about-me", 1000); });
+var aboutSection = document.querySelector("#about");
+aboutSection.addEventListener("click", () => { smoothScroll("#about-me", 1000); });
 
-    var aboutMeSection = document.querySelector(".next-page-icon");
-    aboutMeSection.addEventListener("click", () => { smoothScroll("#about-me", 1000); });
+var aboutMeSection = document.querySelector(".next-page-icon");
+aboutMeSection.addEventListener("click", () => { smoothScroll("#about-me", 1000); });
 
-    var projectsSection = document.querySelector("#projects");
-    projectsSection.addEventListener("click", () => { smoothScroll("#project", 1000); });
+var projectsSection = document.querySelector("#projects");
+projectsSection.addEventListener("click", () => { smoothScroll("#project", 1000); });
 
-    var contactSection = document.querySelector("#contactMe");
-    contactSection.addEventListener("click", () => { smoothScroll("#contact", 1000); });
+var contactSection = document.querySelector("#contactMe");
+contactSection.addEventListener("click", () => { smoothScroll("#contact", 1000); });
+
+
+// Load more functionality
+
+var loadMoreBtn = document.querySelector(".load-more-button");
+console.log("works");
+var currentItems = 4;
+
+
+loadMoreBtn.addEventListener("click", () => {
+    var cards = [...document.querySelectorAll(".project-card")];
+    for (var i = currentItems; i < currentItems + 4; i++) {
+        cards[i].style.display = "inline-block";
+    }
+    currentItems += 4;
+
+    if(currentItems == cards.length) {
+        loadMoreBtn.style.display = "none";
+    }
+});
+
