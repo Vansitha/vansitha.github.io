@@ -84,4 +84,3 @@ loadMoreBtn.addEventListener("click", () => {
         loadMoreBtn.style.display = "none";
     }
 });
-

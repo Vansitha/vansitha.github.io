@@ -535,9 +535,11 @@ main {
 }
 
 .load-more-button {
+    font-weight: lighter;
+    font-size: small;
     padding: 10px;
     color: var(--secondary-color);
-    border: solid 0.5px var(--accent-color);
+    border: solid 1px var(--accent-color);
     background: none;
 }
 
@@ -633,7 +635,11 @@ main {
     width: 110px;
     position: absolute;
     right: 0px;
-    bottom: -40px;
+    bottom: -50px;
+}
+
+.form-status {
+    margin-bottom: 60px;
 }
 
 form {
@@ -756,7 +762,7 @@ footer {
 
 /* DISABLE CONTACT FORM */
 
-.send-button {
+/* .send-button {
     background-color: rgb(133, 133, 133);
     color: rgb(58, 58, 58);
     opacity: 0.5;
@@ -765,4 +771,4 @@ footer {
 .send-button:hover {
     background-color: rgb(133, 133, 133);
     color: rgb(58, 58, 58);
-}
+} */
