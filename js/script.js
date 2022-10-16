@@ -89,6 +89,8 @@ loadMoreBtn.addEventListener("click", () => {
 
 
 function displaySuccessMessage() {
-    var sucessMessage = document.querySelector(".form-status");
-    sucessMessage.style.visibility = "visible";
+    var sendButton= document.querySelector(".send-button");
+    sendButton.addEventListener("click", () => {
+        sucessMessage.style.visibility = "visible";
+    })
 }
