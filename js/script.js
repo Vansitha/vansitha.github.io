@@ -27,7 +27,7 @@ function smoothScroll(target, duration) {
 var windowSize = document.documentElement.clientWidth || window.innerWidth;
 var minScreenWidth = 400;
 
-    function animation(currentTime) {
+function animation(currentTime) {
         if (startTime == null) startTime = currentTime;
         var timeElaplsed = currentTime - startTime;
         var run = easeOut(timeElaplsed, startPosition, distance, duration);
@@ -84,3 +84,11 @@ loadMoreBtn.addEventListener("click", () => {
         loadMoreBtn.style.display = "none";
     }
 });
+
+// Contact form success message
+
+
+function displaySuccessMessage() {
+    var sucessMessage = document.querySelector(".form-status");
+    sucessMessage.style.visibility = "visible";
+}

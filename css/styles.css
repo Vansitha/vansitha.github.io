@@ -678,6 +678,7 @@ input {
 }
 
 .form-status {
+    visibility: hidden;
     padding-top: 15px;
     font-weight: bold;
     text-align: start;
