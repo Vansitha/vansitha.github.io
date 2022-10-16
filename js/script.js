@@ -87,10 +87,7 @@ loadMoreBtn.addEventListener("click", () => {
 
 // Contact form success message
 
-
-function displaySuccessMessage() {
-    var sendButton= document.querySelector(".send-button");
-    sendButton.addEventListener("click", () => {
-        sucessMessage.style.visibility = "visible";
-    })
+if (document.URL == "https://vansitha.github.io/#complete-status") {
+    var successMessage = document.querySelector(".form-status");
+    successMessage.style.visibility = "visible";
 }
