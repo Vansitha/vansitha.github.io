@@ -69,25 +69,43 @@ contactSection.addEventListener("click", () => { smoothScroll("#contact", 1000);
 // Load more functionality
 
 var loadMoreBtn = document.querySelector(".load-more-button");
-console.log("works");
 var currentItems = 4;
 
 
 loadMoreBtn.addEventListener("click", () => {
     var cards = [...document.querySelectorAll(".project-card")];
     for (var i = currentItems; i < currentItems + 4; i++) {
-        cards[i].style.display = "inline-block";
+        //cards[i].style.display = "inline-block";
     }
     currentItems += 4;
 
     if(currentItems == cards.length) {
-        loadMoreBtn.style.display = "none";
+        loadMoreBtn.textContent = "Show Less";
+        // loadMoreBtn.style.display = "none";
     }
 });
+
+// Load less functionality
+if (loadMoreBtn.textContent === 'Show Less') {
+    console.log(currentItems, loadMoreBtn.textContent);
+    loadMoreBtn.addEventListener("click", () => {
+        var cards = [...document.querySelectorAll(".project-card")];
+        for (var i = currentItems; i <= 4; i--) {
+            cards[i].style.display = "none";
+        }
+        currentItems -= 4;
+
+        if(currentItems == 4) {
+            loadMoreBtn.textContent = "Show More";
+        }
+
+    });
+}
 
 // Contact form success message
 
 if (document.URL == "https://vansitha.github.io/#complete-status") {
     var successMessage = document.querySelector(".form-status");
     successMessage.style.visibility = "visible";
+    setTimeout(successMessage.style.visibility = "invisible", 5);
 }
