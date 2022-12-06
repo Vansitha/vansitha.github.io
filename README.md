@@ -1,6 +1,6 @@
 # Personal Portfolio Site
 
-No fancy framework used. Randomly had a thought of building a portfolio website for myself. So I got to work and started to design and build it. Built it mainly to learn html, css and javascript. Although I had learnt it before and forgotten everything. XD
+No fancy framework used. Had a spontaneous thought of building a portfolio website for myself (can't really call it a portfolio...but yea, you get the idea.). So I got to work and began designing and building it..sorta? Built it mainly to learn html, css and javascript. Although I had learnt it before and forgotten everything 👉🏽👈🏽. Typical me 🙄.
 Will be upgrading to a framework later down the road. For now its just good old html, css and javascript.
 
 Feedback and suggestions on improvements much appreciated!
